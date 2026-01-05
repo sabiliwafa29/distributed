@@ -3,7 +3,7 @@ name: ci
 on:
   push:
     branches:
-      - "main"
+      - "master"
 
 jobs:
   docker:
@@ -29,3 +29,4 @@ jobs:
           # Otherwise, push to a registry.
           outputs: ${{ github.event_name == 'pull_request' && 'type=cacheonly' || 'type=registry' }}
           provenance: false
+
