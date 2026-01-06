@@ -71,3 +71,7 @@ logs/
 # Database
 *.db
 *.sqlite3
+
+# Celery
+celerybeat-schedule
+celerybeat.pid

@@ -147,8 +147,8 @@ This approach is better for low-contention scenarios but may require retries.
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/distributed-ecommerce.git
-   cd distributed-ecommerce
+   git clone https://github.com/sabiliwafa29/distributed.git
+   cd distributed
    ```
 
 2. **Create environment file**
@@ -432,7 +432,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
----
-
-Made with ❤️ using FastAPI, PostgreSQL, Redis, and Celery
